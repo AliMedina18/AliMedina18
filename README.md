@@ -10,8 +10,11 @@
 
 <!-- Bloque tipo div centrado -->
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=rounded&color=0:00c6ff,100:0072ff&height=80&section=header&text=🌊+Construyendo+experiencias+digitales+inteligentes+🌊&fontSize=24&fontColor=ffffff&animation=fadeIn" />
+  <img src="https://img.shields.io/badge/🌊-Construyendo%20experiencias%20digitales%20inteligentes-0072FF?style=for-the-badge&logo=appveyor&logoColor=white" />
 </p>
+
+
+
 
 
 
