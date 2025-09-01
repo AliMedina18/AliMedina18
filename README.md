@@ -1,63 +1,48 @@
-<h1 align="center">Hola, soy Alicia Medina Oquendo 👋</h1>
+<div align="center">
+  <img src="https://your-image-url.com/profile.png" width="150" style="border-radius: 50%;" />
+rong>Interna en Microsoft | Apasionada por el crecimiento profesional y el diseño digital</strong></p>
+  <a href="mailto:alimedina18@ejemplo.com">📧a> • 
+  <a href="https://twitter.com/alimedina18">🐦 Twitter</a>
+>
 
-<p align="center">
-  <strong>Interna en Microsoft | Apasionada por el crecimiento profesional y el diseño digital</strong>
-</p>
+<h2>🌱 Sobre mí</h2>
+<p>¡Crea una presencia que deje huella en tu audiencia!</p>
+<p>Actualmente formo parte del grupo TalentGrowth, enfocado en el crecimiento de los internos del SENA.</p>
 
----
+<hr>
 
-## 🌱 Sobre mí
+<h2>💼 Mis habilidades</h2>
+<table>
+  <tr>
+    <td>🎨 Figma</td>
+    <td>💻 Desarrollo Web</td>
+    <td>📱 Apps móviles</td>
+  </tr>
+  <tr>
+    <td>⭐️⭐️⭐️⭐️⭐️</td>
+    <td>⭐️⭐️⭐️⭐️</td>
+    <td>⭐️⭐️⭐️⭐️</td>
+  </tr>
+</table>
 
-> ¡Crea una presencia que deje huella en tu audiencia!
+<hr>
 
-Soy una Account Executive INTERN en Microsoft, comprometida con el desarrollo de talento joven y la comunicación asertiva. Actualmente formo parte del grupo TalentGrowth, enfocado en el crecimiento de los internos del SENA.
+<h2>🛠️ Servicios</h2>
+<ul>
+  <li>🎨 Diseño UI/UX</li>
+  <li>🖥️ Diseño Web</li>
+  <li>💻 Desarrollo Web</li>
+</ul>
 
-📞 **Teléfono:** (+57) 300-000-0000  
-📧 **Correo:** alimedina18@ejemplo.com  
-🐦 **Twitter:** https://twitter.com/alimedina18
+<hr>
 
-alimedina18@ejemplo.com • #
+<h2>💬 Opiniones</h2>
+<blockquote>
+  “Alicia tiene una visión clara y creativa. Su trabajo en TalentGrowth ha sido inspirador.” — Robert J.
+</blockquote>
 
----
+<hr>
 
-## 💼 Mis habilidades
-
-HabilidadNivelFigma⭐⭐⭐⭐⭐ 99%WordPress⭐⭐⭐⭐⭐ 99%Desarrollo Web⭐⭐⭐⭐ 95%Diseño Web⭐⭐⭐⭐⭐ 97%Sketch⭐⭐⭐⭐ 93%Adobe XD⭐⭐⭐⭐⭐ 99%Edición de video⭐⭐⭐⭐ 94%| Apps móviles     | ⭐⭐⭐⭐ 90%  |
-
----
-
-## 🛠️ Servicios
-
-- 🎨 **Diseño UI/UX**
-- 🖥️ **Diseño Web**
-- 💻 **Desarrollo Web**
-
----
-
-## 💬 Opiniones de clientes
-
-> “Alicia tiene una visión clara y creativa. Su trabajo en TalentGrowth ha sido inspirador.”  
-— Robert J.
-
-> “Excelente comunicación y compromiso. ¡Muy recomendada!”  
-— Janica Z.
-
-> “Su enfoque en el crecimiento profesional es admirable.”  
-— Justin B.
-
----
-
-## 📫 Contáctame
-
-- 📍 Dirección: Bogotá, Colombia  
-- 🌐 Sitio web: https://roxthomes.com  
-- 🕒 Horario: Lunes a Viernes / 8am - 10pm
-
-¿Quieres recibir actualizaciones?  
-Suscríbete para estar al tanto de mis proyectos y aprendizajes.
-
----
-
-<p align="center">
-  https://twitter.com/alimedina18https://img.shields.io/twitter/follow/alimedina18?style=social</a>
-</p>
+<h2>📫 Contáctame</h2>
+<p>📍 Bogotá, Colombia</p>
+<p>🌐 Sitio web: <a href="https://roxthomes.com">roxthomes.com</� Horario: Lunes a Viernes / 8am - 10pm</p>
