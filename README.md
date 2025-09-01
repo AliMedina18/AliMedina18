@@ -8,6 +8,12 @@
   <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=24&pause=1000&color=1E3C72&center=true&vCenter=true&width=900&lines=%E2%AD%90+Desarrolladora+Fullstack+|+Amante+del+Codigo+Limpio+|+AI+%E2%AD%90" alt="Typing SVG" />
 </p>
 
+<!-- Bloque tipo div centrado -->
+<p align="center">
+  <img src="https://capsule-render.vercel.app/api?type=rounded&color=0:00c6ff,100:0072ff&height=80&section=header&text=🌊+Construyendo+experiencias+digitales+inteligentes+🌊&fontSize=24&fontColor=ffffff&animation=fadeIn" />
+</p>
+
+
 
 
 
