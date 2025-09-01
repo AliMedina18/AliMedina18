@@ -1,65 +1,50 @@
-<!-- Encabezado principal -->
-<div align="center" style="background-color:#e6f2ff; padding: 30px; border-radius: 10px;">
-  <img src="image.png" alt="Alicia Medina Oquendo" width="150" style="soy Alicia Medina Oquendo! 👋</h1>
-  <p style="font-size: 1.2em;"><strong>Interna en Microsoft | Apasionada por el crecimiento profesional y el diseño digital</strong></p>
-</div>
+<!-- Encabezado con imagen y presentación -->
+<div align="center">
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=24&pause=1000&color=00BFFF&center=true&vCenter=true&width=435&lines=Hola%2C+soy+Alicia+Medina+Oquendo;Interna+en+Microsoft;Apasionada+por+el+crecimiento+y+el+dise%C3%B1o" alt="Typing Sobre mí
+
+🎓 Interna en Microsoft como Account Executive  
+🌱 Aprendiendo sobre comunicación asertiva y liderazgo  
+🌍 Bogotá, Colombia  
+💬 Pregúntame sobre: diseño digital, talento joven, proyectos SENA  
+📫 Contacto: alimedina18@ejemplo.com  
+🐦 Twitter: [@alimedina18](https://twitter.com--
+
+### 🛠️ Tecnologías y herramientas
+
+![Fps://img.shields.io/badge/Figma-99%25-blue?logo=figma
+![WordPress](https://img.shieldsdPress-99%25-blue?logo=wordpress
+![Web Dev](https://img.shields.io/badge/Web%20Development-95%o=html5
+![Adobe XD](https://img.shields.io/badge/Adobe%lue?logo=adobexd
+![Sketch](https://img.shields.io/badge%25-blue?logo=sketch
+![Video Editing](https://img.shields.io/badge/4%25-blue?logo=adobe-premiere-pro
+![Mobile Apps](https://img.shields.io/badge90%25-blue?logo=android
 
 ---
 
-<!-- Sobre mí -->
-<div style="background-color:#ffffff; padding: 20px; border-radius: 10px;">
-  <h2 style="color:#2c3e50;">🌱 Sobre mí</h2>
-  <p>¡Crea una presencia que deje huella en tu audiencia!</p>
-  <p>Soy una Account Executive INTERN en Microsoft, comprometida con el desarrollo de talento joven y la comunicación asertiva. Actualmente formo parte del grupo TalentGrowth, enfocado en el crecimiento de los internos del SENA.</p>
-  <p>📞 <strong>Teléfono:</strong> (+57) 300-000-0000<br>
-     📧 <strong>Correo:</strong> alimedina18@ejemplo.com<br>
-     🐦 <strong>Twitter:</strong> <a href="https://twitter.com/alalimedina18</a></p>
-</div>
+### ✨ Servicios
+
+- 🎨 Diseño UI/UX
+- 🖥️ Diseño Web
+- 💻 Desarrollo Web
+- 📱 Diseño de Apps móviles
 
 ---
 
-<!-- Habilidades -->
-<div style="background-color:#f9f9f9; padding: 20px; border-radius: 10px;">
-  <h2 style="color:#2c3e50;">💼 Mis habilidades</h2>
-  <table>
-    <tr><td>🎨 Figma</td><td>⭐⭐⭐⭐⭐ 99%</td></tr>
-    <tr><td>🌐 WordPress</td><td>⭐⭐⭐⭐⭐ 99%</td></tr>
-    <tr><td>💻 Desarrollo Web</td><td>⭐⭐⭐⭐ 95%</td></tr>
-    <tr><td>🖥️ Diseño Web</td><td>⭐⭐⭐⭐⭐ 97%</td></tr>
-    <tr><td>📐 Sketch</td><td>⭐⭐⭐⭐ 93%</td></tr>
-    <tr><td>✏️ Adobe XD</td><td>⭐⭐⭐⭐⭐ 99%</td></tr>
-    <tr><td>🎬 Edición de video</td><td>⭐⭐⭐⭐ 94%</td></tr>
-    <tr><td>📱 Apps móviles</td><td>⭐⭐⭐⭐ 90%</td></tr>
-  </table>
-</div>
+### 💬 Opiniones
+
+> “Alicia tiene una visión clara y creativa. Su trabajo en TalentGrowth ha sido inspirador.” — Robert J.  
+> “Excelente comunicación y compromiso. ¡Muy recomendada!” — Janica Z.  
+> “Su enfoque en el crecimiento profesional es admirable.” — Justin B.
 
 ---
 
-<!-- Servicios -->
-<div style="background-color:#ffffff; padding: 20px; border-radius: 10px;">
-  <h2 style="color:#2c3e50;">🛠️ Servicios</h2>
-  <ul>
-    <li>🎨 Diseño UI/UX</li>
-    <li>🖥️ Diseño Web</li>
-    <li>💻 Desarrollo Web</li>
-  </ul>
-</div>
+### 📈 Estadísticas de GitHub
+
+![Alicia's GitHub Stats](https://github-readme-stats.vercel.app/apiw_icons=true&theme=tokyonight
+!ttps://github-readme-stats.vercel.app/api/top-langs/?username=alimedina18&layout=compact&theme=tokyonight
 
 ---
 
-<!-- Opiniones -->
-<div style="background-color:#f9f9f9; padding: 20px; border-radius: 10px;">
-  <h2 style="color:#2c3e50;">💬 Opiniones de clientes</h2>
-  <blockquote>“Alicia tiene una visión clara y creativa. Su trabajo en TalentGrowth ha sido inspirador.” — Robert J.</blockquote>
-  <blockquote>“Excelente comunicación y compromiso. ¡Muy recomendada!” — Janica Z.</blockquote>
-  <blockquote>“Su enfoque en el crecimiento profesional es admirable.” — Justin B.</blockquote>
-</div>
+### 📫 ¿Quieres colaborar?
 
----
-
-<!-- Contacto -->
-<div style="background-color:#ffffff; padding: 20px; border-radius: 10px;">
-  <h2 style="color:#2c3e50;">📫 Contáctame</h2>
-  <p>📍 Dirección: Bogotá, Colombia<br>
-     🌐 Sitio web: <a href="https://roxthomes.com">roxthomes.com</ 🕒 Horario: Lunes a Viernes / 8am - 10pm</p>
-</div>
+¡Estoy abierta a proyectos creativos y colaboraciones!  
