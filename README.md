@@ -4,9 +4,13 @@
 </p>
 
 <!-- Texto animado -->
+
 <p align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?size=24&duration=4000&color=1E3C72&center=true&vCenter=true&lines=💻+Desarrollador+Fullstack;🚀+Apasionado+por+la+tecnología;🎨+Amante+del+diseño+y+UI/UX;🌎+Colaborando+en+proyectos+open+source" />
+  <a href="https://git.io/typing-svg">
+    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=800&size=25&pause=1000&color=1E3C72&center=true&vCenter=true&width=600&lines=💻+Desarrollador+Fullstack;🚀+Apasionado+por+la+tecnología;🎨+Amante+del+diseño+UI%2FUX;🌎+Colaborador+Open+Source" alt="Typing SVG" />
+  </a>
 </p>
+
 
 ---
 
