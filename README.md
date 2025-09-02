@@ -14,51 +14,17 @@
   <img src="https://img.shields.io/badge/✨-APASIONADA%20POR%20LA%20IA%20Y%20TECNOLOGÍA-1E3C72?style=for-the-badge" />
 </p>
 
-<!-- Título arriba de las tarjetas -->
-<p align="center">
-  <h2 style="color:#0072FF;">Tecnologias</h2>
+<h2>✨ Sobre mí ✨</h2>
+
+<p>
+Soy una desarrolladora de software apasionada y comprometida con una sólida formación en programación y tecnologías modernas. Tengo experiencia en desarrollo front-end y back-end, trabajando con Java, PHP, React, TypeScript y NestJS para crear aplicaciones escalables y fáciles de usar.
 </p>
 
-<!-- Panel creativo de tus áreas centrado -->
 <p align="center">
-<table align="center">
-<tr>
-  <td align="center" bgcolor="#0072FF" width="200" height="400" style="border-radius:10px; color:white; font-weight:bold;">
-    <h3>🌐 Frontend</h3>
-    <p>Interfaces interactivas<br>y responsivas</p>
-  </td>
-  <td width="20"></td> <!-- Espacio entre tarjetas -->
-  <td align="center" bgcolor="#1E3C72" width="200" height="400" style="border-radius:10px; color:white; font-weight:bold;">
-    <h3>🛠️ Backend</h3>
-    <p>APIs y lógica de negocio<br>robusta y eficiente</p>
-  </td>
-  <td width="20"></td>
-  <td align="center" bgcolor="#00BFFF" width="200" height="400" style="border-radius:10px; color:white; font-weight:bold;">
-    <h3>🤖 Machine Learning</h3>
-    <p>Modelos y análisis<br>de datos inteligentes</p>
-  </td>
-</tr>
-</table>
+  <img src="https://www.florclick.com/entradas_blog/calendario-de-flores-5f6bdc06188c5.jpg" width="280" style="margin-right:80px;" />
+  <img src="https://www.florclick.com/entradas_blog/calendario-de-flores-5f6bdc06188c5.jpg" width="280" style="margin-right:80px;" />
+  <img src="https://www.florclick.com/entradas_blog/calendario-de-flores-5f6bdc06188c5.jpg" width="280" />
 </p>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
