@@ -16,24 +16,24 @@
 
 <!-- Título arriba de las tarjetas -->
 <p align="center">
-  <h2 style="color:#0072FF;">🌟 Áreas que manejo 🌟</h2>
+  <h2 style="color:#0072FF;">Tecnologias</h2>
 </p>
 
 <!-- Panel creativo de tus áreas centrado -->
 <p align="center">
 <table align="center">
 <tr>
-  <td align="center" bgcolor="#0072FF" width="200" height="150" style="border-radius:10px; color:white; font-weight:bold;">
+  <td align="center" bgcolor="#0072FF" width="200" height="400" style="border-radius:10px; color:white; font-weight:bold;">
     <h3>🌐 Frontend</h3>
     <p>Interfaces interactivas<br>y responsivas</p>
   </td>
   <td width="20"></td> <!-- Espacio entre tarjetas -->
-  <td align="center" bgcolor="#1E3C72" width="200" height="150" style="border-radius:10px; color:white; font-weight:bold;">
+  <td align="center" bgcolor="#1E3C72" width="200" height="400" style="border-radius:10px; color:white; font-weight:bold;">
     <h3>🛠️ Backend</h3>
     <p>APIs y lógica de negocio<br>robusta y eficiente</p>
   </td>
   <td width="20"></td>
-  <td align="center" bgcolor="#00BFFF" width="200" height="150" style="border-radius:10px; color:white; font-weight:bold;">
+  <td align="center" bgcolor="#00BFFF" width="200" height="400" style="border-radius:10px; color:white; font-weight:bold;">
     <h3>🤖 Machine Learning</h3>
     <p>Modelos y análisis<br>de datos inteligentes</p>
   </td>
