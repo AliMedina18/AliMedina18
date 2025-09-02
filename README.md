@@ -8,9 +8,10 @@
   <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=24&pause=1000&color=1E3C72&center=true&vCenter=true&width=900&lines=%E2%AD%90+Desarrolladora+Fullstack+|+Amante+del+Codigo+Limpio+|+AI+%E2%AD%90" alt="Typing SVG" />
 </p>
 
-<!-- Bloque tipo div centrado -->
+<!-- Bloques tipo div lado a lado -->
 <p align="center">
   <img src="https://img.shields.io/badge/🌊-Construyendo%20experiencias%20digitales%20inteligentes-0072FF?style=for-the-badge&logo=appveyor&logoColor=white" />
+  <img src="https://img.shields.io/badge/✨-Apasionada%20por%20AI%20y%20tecnología-1E3C72?style=for-the-badge&logo=appveyor&logoColor=white" />
 </p>
 
 
