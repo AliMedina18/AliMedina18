@@ -11,10 +11,9 @@
 <!-- Bloques tipo div lado a lado -->
 <p align="center">
   <img src="https://img.shields.io/badge/🌊-Construyendo%20experiencias%20digitales%20inteligentes-0072FF?style=for-the-badge&logo=appveyor&logoColor=white" />
-  <img src="https://img.shields.io/badge/✨-APASIONADA%20POR%20LA%20IA%20Y%20TECNOLOGÍA-1E3C72?style=for-the-badge&logo=appveyor&logoColor=c7fff8
-200
-" />
+  <img src="https://img.shields.io/badge/✨-APASIONADA%20POR%20LA%20IA%20Y%20TECNOLOGÍA-1E3C72?style=for-the-badge&logo=appveyor&logoColor=white" />
 </p>
+
 
 
 
