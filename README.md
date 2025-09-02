@@ -21,9 +21,9 @@ Soy una desarrolladora de software apasionada y comprometida con una sólida for
 </p>
 
 <p align="center">
-  <img src="https://www.florclick.com/entradas_blog/calendario-de-flores-5f6bdc06188c5.jpg" width="200" style="margin-right:80px;" />
-  <img src="https://www.florclick.com/entradas_blog/calendario-de-flores-5f6bdc06188c5.jpg" width="200" style="margin-right:80px;" />
-  <img src="https://www.florclick.com/entradas_blog/calendario-de-flores-5f6bdc06188c5.jpg" width="200" />
+  <img src="https://www.florclick.com/entradas_blog/calendario-de-flores-5f6bdc06188c5.jpg" width="240" style="margin-right:80px;" />
+  <img src="https://www.florclick.com/entradas_blog/calendario-de-flores-5f6bdc06188c5.jpg" width="240" style="margin-right:80px;" />
+  <img src="https://www.florclick.com/entradas_blog/calendario-de-flores-5f6bdc06188c5.jpg" width="240" />
 </p>
 
 
