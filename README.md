@@ -28,6 +28,14 @@ Soy una desarrolladora de software apasionada y comprometida con una sólida for
   <img src="https://www.florclick.com/entradas_blog/calendario-de-flores-5f6bdc06188c5.jpg" width="240" style="border-radius:15px; box-shadow:2px 2px 8px rgba(0,0,0,0.3);" />
 </p>
 
+<p align="center">
+  <img src="https://img.shields.io/badge/💻_Lenguajes-0072FF?style=for-the-badge&logoColor=white" />
+  <img src="https://img.shields.io/badge/⚙️_Frameworks-0072FF?style=for-the-badge&logoColor=white" />
+  <img src="https://img.shields.io/badge/🗄️_Bases_de_Datos-0072FF?style=for-the-badge&logoColor=white" />
+  <img src="https://img.shields.io/badge/🤖_IA-0072FF?style=for-the-badge&logoColor=white" />
+  <img src="https://img.shields.io/badge/🛠️_Herramientas-0072FF?style=for-the-badge&logoColor=white" />
+  <img src="https://img.shields.io/badge/📱_Mobile-0072FF?style=for-the-badge&logoColor=white" />
+</p>
 
 
 
