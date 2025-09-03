@@ -17,7 +17,9 @@
 <h2>✨ Sobre mí ✨</h2>
 
 <p>
-Soy una desarrolladora de software apasionada y comprometida con una sólida formación en programación y tecnologías modernas. Tengo experiencia en desarrollo front-end y back-end, trabajando con Java, PHP, React, TypeScript y NestJS para crear aplicaciones escalables y fáciles de usar.
+Soy una desarrolladora de software apasionada y comprometida, con sólida formación en programación y tecnologías modernas. 
+Tengo experiencia tanto en desarrollo front-end como back-end, y me entusiasma la innovación y el desarrollo sostenible. 
+Me gusta explorar nuevas áreas, aprender y aplicar conocimientos de manera transversal, con un enfoque en el crecimiento constante de la inteligencia artificial.
 </p>
 
 <p align="center">
