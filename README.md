@@ -31,15 +31,17 @@ Cuento con experiencia en el desarrollo Fullstack, abarcando tanto Frontend como
 
 <h2>✨ Mi perfil de desarrollo ✨</h2>
 
-<p align="center">
+<p>
   <!-- Estadísticas generales -->
 <img src="https://github-readme-stats.vercel.app/api?username=AliMedina18&show_icons=true&theme=default&title_color=0072FF&icon_color=1E90FF&text_color=000000&bg_color=ffffff&locale=es&name=Alicia%20Medina"  width="420" height="300" />
-
-  <!-- Lenguajes más usados -->
-   <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=AliMedina18&layout=compact&theme=default&title_color=0072FF&icon_color=1E90FF&text_color=000000&bg_color=ffffff&langs_count=6&locale=es&custom_title=Lenguajes%20más%20usados" width="318" height="400" />
 </p>
 
-<p align="center">
+<!-- Racha de programación -->
+<p align="right">
+  <img src="https://streak-stats.demolab.com?user=AliMedina18&theme=default&background=ffffff&border=ffffff&ring=0072FF&fire=1E90FF&currStreakLabel=0072FF&sideLabels=000000&dates=000000" alt="Racha de programación" />
+</p>
+
+<p>
   <a href="https://github.com/AliMedina18/VANESSA">
     <img src="https://github-readme-stats.vercel.app/api/pin/?username=AliMedina18&repo=VANESSA&theme=default&locale=es" alt="VANESSA Repo Card" />
   </a>
