@@ -20,7 +20,7 @@ Desarrolladora de software con experiencia en diseño de interfaces atractivas (
 </p>
 
 <p align="center">
-  <img src="Img/Back.png" width="200" style="border-radius:15px; box-shadow:2px 2px 8px rgba(0,0,0,0.3);" />
+  <img src="Img/Front.png" width="200" style="border-radius:15px; box-shadow:2px 2px 8px rgba(0,0,0,0.3);" />
   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
   <img src="Img/Back.png" width="200" style="border-radius:15px; box-shadow:2px 2px 8px rgba(0,0,0,0.3);" />
   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
