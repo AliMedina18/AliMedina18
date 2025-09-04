@@ -31,39 +31,16 @@ Cuento con experiencia en el desarrollo Fullstack, abarcando tanto Frontend como
 
 <p align="center">
   <!-- Estadísticas generales -->
-<img src="https://github-readme-stats.vercel.app/api?username=AliMedina18&show_icons=true&theme=default&title_color=0072FF&icon_color=1E90FF&text_color=000000&bg_color=ffffff&locale=es&name=Alicia%20Medina"  width="395" height="200" />
+<img src="https://github-readme-stats.vercel.app/api?username=AliMedina18&show_icons=true&theme=default&title_color=0072FF&icon_color=1E90FF&text_color=000000&bg_color=ffffff&locale=es&name=Alicia%20Medina"  width="495" height="300" />
 
   <!-- Lenguajes más usados -->
-   <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=AliMedina18&layout=compact&theme=default&title_color=0072FF&icon_color=1E90FF&text_color=000000&bg_color=ffffff&langs_count=6&locale=es&custom_title=Lenguajes%20más%20usados" width="300" height="200" />
-</p>
-
-
-<!-- Gráfico de contribuciones -->
-<p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=AliMedina18&theme=github&bg_color=ffffff&color=0072FF&line=1E90FF&point=000000&area=true&hide_border=true" alt="Gráfico de contribuciones" />
+   <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=AliMedina18&layout=compact&theme=default&title_color=0072FF&icon_color=1E90FF&text_color=000000&bg_color=ffffff&langs_count=6&locale=es&custom_title=Lenguajes%20más%20usados" width="400" height="400" />
 </p>
 
 <!-- Racha de programación -->
 <p align="center">
   <img src="https://streak-stats.demolab.com?user=AliMedina18&theme=default&background=ffffff&border=ffffff&ring=0072FF&fire=1E90FF&currStreakLabel=0072FF&sideLabels=000000&dates=000000" alt="Racha de programación" />
 </p>
-
-<details>
-  <summary>💻 Proyecto 1 - Aplicación Web</summary>
-  **Descripción:** Proyecto fullstack usando React y NestJS  
-  **Tecnologías:** React · NestJS · MySQL  
-  **Estado:** Completado ✅  
-  [Repositorio](https://github.com/AliMedina18/Proyecto1)
-</details>
-
-<details>
-  <summary>⚡ Proyecto 2 - API REST</summary>
-  **Descripción:** API para gestión de usuarios y productos  
-  **Tecnologías:** PHP · MySQL  
-  **Estado:** En desarrollo 🚧  
-  [Repositorio](https://github.com/AliMedina18/Proyecto2)
-</details>
-
 
 
 
