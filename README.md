@@ -31,7 +31,7 @@ Cuento con experiencia en el desarrollo Fullstack, abarcando tanto Frontend como
 
 <p align="center">
   <!-- Estadísticas generales -->
-<img src="https://github-readme-stats.vercel.app/api?username=AliMedina18&show_icons=true&theme=default&title_color=0072FF&icon_color=1E90FF&text_color=000000&bg_color=ffffff&locale=es&name=Alicia%20Medina"  width="400" height="200" />
+<img src="https://github-readme-stats.vercel.app/api?username=AliMedina18&show_icons=true&theme=default&title_color=0072FF&icon_color=1E90FF&text_color=000000&bg_color=ffffff&locale=es&name=Alicia%20Medina"  width="395" height="200" />
 
   <!-- Lenguajes más usados -->
    <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=AliMedina18&layout=compact&theme=default&title_color=0072FF&icon_color=1E90FF&text_color=000000&bg_color=ffffff&langs_count=6&locale=es&custom_title=Lenguajes%20más%20usados" width="300" height="200" />
