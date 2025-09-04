@@ -16,25 +16,27 @@
 
 <h2>✨ Un poco sobre mí ✨</h2>
 <p>
-Desarrolladora de software con experiencia en diseño de interfaces atractivas (Front-End), creación de soluciones escalables (Back-End) y aplicación de Machine Learning para crear soluciones inteligentes.
+Desarrolladora de software con experiencia en el diseño de interfaces atractivas (Front-End), el desarrollo de soluciones escalables (Back-End) y la aplicación de Machine Learning para crear productos inteligentes. Soy una profesional apasionada y comprometida, con una sólida formación en programación y tecnologías modernas.
 </p>
 
 <p align="center">
   <img src="Img/Trofeo4.png" alt="Trofeos de BAT, Front y Machine Learning" width="800px">
 </p>
 
+<p>
+Cuento con experiencia en el desarrollo Fullstack, abarcando tanto Frontend como Backend, utilizando tecnologías modernas como Java, Python, C# y TypeScript para construir aplicaciones escalables, intuitivas y fáciles de usar. Además, he diseñado y entrenado modelos de Procesamiento de Lenguaje Natural (PLN) basados en la arquitectura BERT, orientados a la detección de distintos tipos de violencia (física, verbal, psicológica, sexual y cibernética), empleando PyTorch, Hugging Face Transformers y Scikit-learn.
+</p>
 
----
-
-<h2> Mi evolución en la programación</h2>  
+## ✨ Mi perfil de desarrollo ✨
 
 <p align="center">
   <!-- Estadísticas generales -->
-  <img src="https://github-readme-stats.vercel.app/api?username=AliMedina18&show_icons=true&theme=default&title_color=0072FF&icon_color=1E90FF&text_color=000000&bg_color=ffffff" height="180" />
-  
+ <img src="https://github-readme-stats.vercel.app/api?username=AliMedina18&show_icons=true&theme=default&title_color=0072FF&icon_color=1E90FF&text_color=000000&bg_color=ffffff&locale=es"  width="500" height="200" />
+
   <!-- Lenguajes más usados -->
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=AliMedina18&layout=compact&theme=default&title_color=0072FF&text_color=000000&bg_color=ffffff" height="180" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=AliMedina18&layout=compact&theme=default&title_color=0072FF&icon_color=1E90FF&text_color=000000&bg_color=ffffff" width="400" height="200" />
 </p>
+
 
 <!-- Gráfico de contribuciones -->
 <p align="center">
