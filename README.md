@@ -37,19 +37,30 @@ Cuento con experiencia en el desarrollo Fullstack, abarcando tanto Frontend como
     width="420" height="300" />
 
   <br>
- 
+
   ✔️ Contribuciones constantes en proyectos de **Frontend**, **Backend** e **IA**.  
   ✔️ Enfoque en código limpio y buenas prácticas.  
   ✔️ Crecimiento sostenido en repositorios abiertos.  
 </p>
 
 
-
+  <br>
+  <br>
+  <br>
+  <br>
+ 
 
 <!-- Racha de programación -->
 <p align="right">
-  <img src="https://streak-stats.demolab.com?user=AliMedina18&theme=default&background=ffffff&border=ffffff&ring=0072FF&fire=1E90FF&currStreakLabel=0072FF&sideLabels=000000&dates=000000" alt="Racha de programación" />
+ <img src="https://streak-stats.demolab.com?user=AliMedina18&theme=default&background=ffffff&border=ffffff&ring=0072FF&fire=1E90FF&currStreakLabel=0072FF&sideLabels=000000&dates=000000" alt="Racha de programación" />
+
+  <br>
+  📊 **Mi racha de programación**  
+  ✔️ Constancia diaria en el desarrollo de proyectos.  
+  ✔️ Foco en mantener hábitos de contribución sostenidos.  
+  ✔️ Compromiso con la mejora continua y la disciplina.  
 </p>
+
 
 <p>
   <a href="https://github.com/AliMedina18/VANESSA">
