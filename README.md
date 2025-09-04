@@ -31,10 +31,20 @@ Cuento con experiencia en el desarrollo Fullstack, abarcando tanto Frontend como
 
 <h2>✨ Mi perfil de desarrollo ✨</h2>
 
-<p>
-  <!-- Estadísticas generales -->
-<img src="https://github-readme-stats.vercel.app/api?username=AliMedina18&show_icons=true&theme=default&title_color=0072FF&icon_color=1E90FF&text_color=000000&bg_color=ffffff&locale=es&name=Alicia%20Medina"  width="420" height="300" />
+<p align="left">
+  <img align="left" 
+    src="https://github-readme-stats.vercel.app/api?username=AliMedina18&show_icons=true&theme=default&title_color=0072FF&icon_color=1E90FF&text_color=000000&bg_color=ffffff&locale=es&name=Alicia%20Medina"  
+    width="420" height="300" />
+
+  <br>
+ 
+  ✔️ Contribuciones constantes en proyectos de **Frontend**, **Backend** e **IA**.  
+  ✔️ Enfoque en código limpio y buenas prácticas.  
+  ✔️ Crecimiento sostenido en repositorios abiertos.  
 </p>
+
+
+
 
 <!-- Racha de programación -->
 <p align="right">
@@ -49,6 +59,21 @@ Cuento con experiencia en el desarrollo Fullstack, abarcando tanto Frontend como
     <img src="https://github-readme-stats.vercel.app/api/pin/?username=AliMedina18&repo=FLUVIUS&theme=default&locale=es" alt="FLUVIUS Repo Card" />
   </a>
 </p>
+
+
+## 💼 Experiencia Profesional
+
+<p align="left">
+<img align="right" src="https://media.giphy.com/media/qgQUggAC3Pfv687qPC/giphy.gif" width="220px" />
+
+<b>Microsoft / Fundación NANA</b> – Bogotá, D.C. | Marzo – Septiembre 2025  
+<b>Cargo:</b> Desarrolladora Frontend & IA  
+</p>
+
+✔️ Desarrollé la interfaz de la app **JUNA**, usada en colegios de México para prevenir violencia escolar.  
+✔️ Diseñé y entrené el modelo **BERTin** con PyTorch, Hugging Face y Scikit-learn.  
+✔️ Desplegué una API con **FastAPI + Docker**, optimizando costos en **Azure**.  
+✔️ Creé dashboards interactivos con **Streamlit y Plotly** para visualizar métricas.  
 
 ## 📜 Certificaciones
 
