@@ -27,6 +27,8 @@ Desarrolladora de software con experiencia en el diseño de interfaces atractiva
 Cuento con experiencia en el desarrollo Fullstack, abarcando tanto Frontend como Backend, utilizando tecnologías modernas como Java, Python, C# y TypeScript para construir aplicaciones escalables, intuitivas y fáciles de usar. Además, he diseñado y entrenado modelos de Procesamiento de Lenguaje Natural (PLN) basados en la arquitectura BERT, orientados a la detección de distintos tipos de violencia (física, verbal, psicológica, sexual y cibernética), empleando PyTorch, Hugging Face Transformers y Scikit-learn.
 </p>
 
+
+
 <h2>✨ Mi perfil de desarrollo ✨</h2>
 
 <p align="center">
@@ -34,14 +36,46 @@ Cuento con experiencia en el desarrollo Fullstack, abarcando tanto Frontend como
 <img src="https://github-readme-stats.vercel.app/api?username=AliMedina18&show_icons=true&theme=default&title_color=0072FF&icon_color=1E90FF&text_color=000000&bg_color=ffffff&locale=es&name=Alicia%20Medina"  width="420" height="300" />
 
   <!-- Lenguajes más usados -->
-   <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=AliMedina18&layout=compact&theme=default&title_color=0072FF&icon_color=1E90FF&text_color=000000&bg_color=ffffff&langs_count=6&locale=es&custom_title=Lenguajes%20más%20usados" width="330" height="400" />
+   <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=AliMedina18&layout=compact&theme=default&title_color=0072FF&icon_color=1E90FF&text_color=000000&bg_color=ffffff&langs_count=6&locale=es&custom_title=Lenguajes%20más%20usados" width="318" height="400" />
 </p>
 
-<!-- Racha de programación -->
 <p align="center">
-  <img src="https://streak-stats.demolab.com?user=AliMedina18&theme=default&background=ffffff&border=ffffff&ring=0072FF&fire=1E90FF&currStreakLabel=0072FF&sideLabels=000000&dates=000000" alt="Racha de programación" />
+  <a href="https://github.com/AliMedina18/VANESSA">
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=AliMedina18&repo=VANESSA&theme=default&locale=es" alt="VANESSA Repo Card" />
+  </a>
+   <a href="https://github.com/AliMedina18/FLUVIUS">
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=AliMedina18&repo=FLUVIUS&theme=default&locale=es" alt="FLUVIUS Repo Card" />
+  </a>
 </p>
 
+## 📜 Certificaciones
+
+<div align="center">
+
+<table border="0" cellspacing="0" cellpadding="10">
+  <tr>
+    <td align="center" width="50%" border="0">
+      <img src="https://img.icons8.com/color/30/microsoft.png" width="22px" />
+      Certification: Microsoft Global Hackathon 2025
+    </td>
+    <td align="center" width="50%" border="0">
+      <img src="https://img.icons8.com/color/30/azure-1.png" width="22px" />
+      Certification: Microsoft Certified: Azure Fundamentals
+    </td>
+  </tr>
+  <tr>
+    <td align="center" width="50%" border="0">
+      <img src="https://img.icons8.com/color/30/google-logo.png" width="22px" />
+      Certification: Google Prompting Essentials
+    </td>
+    <td align="center" width="50%" border="0">
+      <img src="https://img.icons8.com/color/30/google-logo.png" width="22px" />
+      Certification: Google AI Essentials
+    </td>
+  </tr>
+</table>
+
+</div>
 
 
 
