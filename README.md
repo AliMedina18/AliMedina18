@@ -14,21 +14,19 @@
   <img src="https://img.shields.io/badge/✨-APASIONADA%20POR%20LA%20IA%20Y%20TECNOLOGÍA-1E3C72?style=for-the-badge" />
 </p>
 
-<h2>✨ Un poco sobre mí y mis conocimientos ✨</h2>
-
+<h2>✨ Un poco sobre mí ✨</h2>
 <p>
-Soy una desarrolladora de software apasionada y comprometida, con sólida formación en programación y tecnologías modernas. 
-Tengo experiencia tanto en desarrollo front-end como back-end, y me entusiasma la innovación y el desarrollo sostenible. 
-Me gusta explorar nuevas áreas, aprender y aplicar conocimientos de manera transversal, con un enfoque en el crecimiento constante de la inteligencia artificial.
+Desarrolladora de software con experiencia en diseño de interfaces atractivas (Front-End), creación de soluciones escalables (Back-End) y aplicación de Machine Learning para crear soluciones inteligentes.
 </p>
 
 <p align="center">
   <img src="Img/Back.png" width="200" style="border-radius:15px; box-shadow:2px 2px 8px rgba(0,0,0,0.3);" />
   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-   <img src="Img/Back.png" width="200" style="border-radius:15px; box-shadow:2px 2px 8px rgba(0,0,0,0.3);" />
+  <img src="Img/Back.png" width="200" style="border-radius:15px; box-shadow:2px 2px 8px rgba(0,0,0,0.3);" />
   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-   <img src="Img/Back.png" width="200" style="border-radius:15px; box-shadow:2px 2px 8px rgba(0,0,0,0.3);" />
+  <img src="Img/Back.png" width="200" style="border-radius:15px; box-shadow:2px 2px 8px rgba(0,0,0,0.3);" />
 </p>
+
 
 ---
 
