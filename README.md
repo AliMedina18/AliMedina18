@@ -36,9 +36,7 @@ Cuento con experiencia en el desarrollo Fullstack, abarcando tanto Frontend como
 
   <br>
 
-  ✔️ Contribuciones constantes en proyectos de **Frontend**, **Backend** e **IA**.  
-  ✔️ Enfoque en código limpio y buenas prácticas.  
-  ✔️ Crecimiento sostenido en repositorios abiertos.  
+  Contribuciones constantes en proyectos además de enfoques en código limpio y buenas prácticas incluyendo crecimiento sostenido en repositorios abiertos.  
 </p>
 
 
@@ -58,7 +56,7 @@ Cuento con experiencia en el desarrollo Fullstack, abarcando tanto Frontend como
 
 <br>
 <br>
-Constancia diaria en el desarrollo de proyectos Foco en mantener hábitos de contribución sostenidos.  Compromiso con la mejora continua y la disciplina.  
+Constancia diaria en el desarrollo de proyectos además en mantener hábitos de contribución sostenidos con compromiso con la mejora continua y la disciplina.  
 </p>
 
 <br>
