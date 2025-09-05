@@ -56,7 +56,6 @@ Cuento con experiencia en el desarrollo Fullstack, abarcando tanto Frontend como
 />
 
 <br>
-📊 **Mi racha de programación**  
 ✔️ Constancia diaria en el desarrollo de proyectos.  
 ✔️ Foco en mantener hábitos de contribución sostenidos.  
 ✔️ Compromiso con la mejora continua y la disciplina.  
