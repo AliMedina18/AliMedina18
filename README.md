@@ -20,7 +20,7 @@ Desarrolladora de software con experiencia en el diseño de interfaces atractiva
 </p>
 
 <p align="center">
-  <img src="Img/Trofeo4.png" alt="Trofeos de BAT, Front y Machine Learning" width="800px">
+  <img src="Img/Trofeo4.png" alt="Trofeos de BAT, Front y Machine Learning" width="600px">
 </p>
 
 <p>
