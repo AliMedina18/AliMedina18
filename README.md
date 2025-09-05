@@ -49,17 +49,17 @@ Cuento con experiencia en el desarrollo Fullstack, abarcando tanto Frontend como
  
 
 <!-- Racha de programación -->
+<p>
 <img align="right" 
-  src="https://streak-stats.demolab.com?user=AliMedina18&theme=default&background=ffffff&border=ffffff&ring=0072FF&fire=1E90FF&currStreakLabel=0072FF&sideLabels=000000&dates=000000" 
+  src="https://streak-stats.demolab.com?user=AliMedina18&theme=default&background=ffffff&border=ffffff&ring=0072FF&fire=1E90FF&currStreakLabel=0072FF&sideLabels=000000&dates=000000&locale=es" 
   alt="Racha de programación" 
   width="420" height="300"
 />
 
 <br>
-✔️ Constancia diaria en el desarrollo de proyectos.  
-✔️ Foco en mantener hábitos de contribución sostenidos.  
-✔️ Compromiso con la mejora continua y la disciplina.  
-
+<br>
+Constancia diaria en el desarrollo de proyectos Foco en mantener hábitos de contribución sostenidos.  Compromiso con la mejora continua y la disciplina.  
+</p>
 
 <br>
 <br>
@@ -75,7 +75,7 @@ Cuento con experiencia en el desarrollo Fullstack, abarcando tanto Frontend como
   </a>
 </p>
 
-## 💼 Experiencia Profesional
+<h2>✨ Experiencia Profesional✨</h2>
 
 <p align="left">
 <img align="right" src="https://media.giphy.com/media/qgQUggAC3Pfv687qPC/giphy.gif" width="220px" />
@@ -89,28 +89,28 @@ Cuento con experiencia en el desarrollo Fullstack, abarcando tanto Frontend como
 ✔️ Desplegué una API con **FastAPI + Docker**, optimizando costos en **Azure**.  
 ✔️ Creé dashboards interactivos con **Streamlit y Plotly** para visualizar métricas.  
 
-## 📜 Certificaciones
+<h2>✨ Certificaciones✨</h2>
 
 <div align="center">
 
 <table border="0" cellspacing="0" cellpadding="10">
   <tr>
     <td align="center" width="50%" border="0">
-      <img src="https://img.icons8.com/color/30/microsoft.png" width="22px" />
+      <img src="https://img.icons8.com/color/30/microsoft.png" width="32px" />
       Certification: Microsoft Global Hackathon 2025
     </td>
     <td align="center" width="50%" border="0">
-      <img src="https://img.icons8.com/color/30/azure-1.png" width="22px" />
+      <img src="https://img.icons8.com/color/30/azure-1.png" width="32px" />
       Certification: Microsoft Certified: Azure Fundamentals
     </td>
   </tr>
   <tr>
     <td align="center" width="50%" border="0">
-      <img src="https://img.icons8.com/color/30/google-logo.png" width="22px" />
+      <img src="https://img.icons8.com/color/30/google-logo.png" width="32px" />
       Certification: Google Prompting Essentials
     </td>
     <td align="center" width="50%" border="0">
-      <img src="https://img.icons8.com/color/30/google-logo.png" width="22px" />
+      <img src="https://img.icons8.com/color/30/google-logo.png" width="32px" />
       Certification: Google AI Essentials
     </td>
   </tr>
