@@ -27,8 +27,6 @@ Desarrolladora de software con experiencia en el diseño de interfaces atractiva
 Cuento con experiencia en el desarrollo Fullstack, abarcando tanto Frontend como Backend, utilizando tecnologías modernas como Java, Python, C# y TypeScript para construir aplicaciones escalables, intuitivas y fáciles de usar. Además, he diseñado y entrenado modelos de Procesamiento de Lenguaje Natural (PLN) basados en la arquitectura BERT, orientados a la detección de distintos tipos de violencia (física, verbal, psicológica, sexual y cibernética), empleando PyTorch, Hugging Face Transformers y Scikit-learn.
 </p>
 
-
-
 <h2>✨ Mi perfil de desarrollo ✨</h2>
 
 <p align="left">
@@ -66,6 +64,17 @@ Cuento con experiencia en el desarrollo Fullstack, abarcando tanto Frontend como
 
 <br>
 <br>
+
+<h2>✨ Mis proyectos relevantes✨</h2>
+
+<p align="center">
+  <a href="https://github.com/AliMedina18/VANESSA">
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=AliMedina18&repo=VANESSA&theme=default&locale=es" alt="VANESSA Repo Card" />
+  </a>
+   <a href="https://github.com/AliMedina18/FLUVIUS">
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=AliMedina18&repo=FLUVIUS&theme=default&locale=es" alt="FLUVIUS Repo Card" />
+  </a>
+</p>
 
 ## 💼 Experiencia Profesional
 
