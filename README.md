@@ -51,26 +51,21 @@ Cuento con experiencia en el desarrollo Fullstack, abarcando tanto Frontend como
  
 
 <!-- Racha de programación -->
-<p align="right">
- <img src="https://streak-stats.demolab.com?user=AliMedina18&theme=default&background=ffffff&border=ffffff&ring=0072FF&fire=1E90FF&currStreakLabel=0072FF&sideLabels=000000&dates=000000" alt="Racha de programación" />
+<img align="right" 
+  src="https://streak-stats.demolab.com?user=AliMedina18&theme=default&background=ffffff&border=ffffff&ring=0072FF&fire=1E90FF&currStreakLabel=0072FF&sideLabels=000000&dates=000000" 
+  alt="Racha de programación" 
+  width="420" height="300"
+/>
 
-  <br>
-  📊 **Mi racha de programación**  
-  ✔️ Constancia diaria en el desarrollo de proyectos.  
-  ✔️ Foco en mantener hábitos de contribución sostenidos.  
-  ✔️ Compromiso con la mejora continua y la disciplina.  
-</p>
+<br>
+📊 **Mi racha de programación**  
+✔️ Constancia diaria en el desarrollo de proyectos.  
+✔️ Foco en mantener hábitos de contribución sostenidos.  
+✔️ Compromiso con la mejora continua y la disciplina.  
 
 
-<p>
-  <a href="https://github.com/AliMedina18/VANESSA">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=AliMedina18&repo=VANESSA&theme=default&locale=es" alt="VANESSA Repo Card" />
-  </a>
-   <a href="https://github.com/AliMedina18/FLUVIUS">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=AliMedina18&repo=FLUVIUS&theme=default&locale=es" alt="FLUVIUS Repo Card" />
-  </a>
-</p>
-
+<br>
+<br>
 
 ## 💼 Experiencia Profesional
 
