@@ -49,7 +49,7 @@ Cuento con experiencia en el desarrollo Fullstack, abarcando tanto Frontend como
 <!-- Racha de programación -->
 <p>
 <img align="right" 
-  src="https://streak-stats.demolab.com?user=AliMedina18&theme=default&background=ffffff&border=ffffff&ring=0072FF&fire=1E90FF&currStreakLabel=0072FF&sideLabels=000000&dates=000000&locale=es" 
+  src="https://github-readme-streak-stats-eight.vercel.app?user=AliMedina18&theme=default&background=ffffff&border=ffffff&ring=0072FF&fire=1E90FF&currStreakLabel=0072FF&sideLabels=000000&dates=000000&locale=es" 
   alt="Racha de programación" 
   width="420" height="300"
 />
