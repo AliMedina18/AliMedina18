@@ -71,14 +71,6 @@ Constancia diaria en el desarrollo de proyectos además en mantener hábitos de 
   <a href="https://github.com/AliMedina18/FLUVIUS">
     <img src="https://github-readme-stats.vercel.app/api/pin/?username=AliMedina18&repo=FLUVIUS&theme=default&locale=es" alt="FLUVIUS Repo Card" />
   </a>
-
-  <a href="https://github.com/Kel411/IDPCPlatform">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=Kel411&repo=IDPCPlatform&theme=default&locale=es" alt="IDPCPlatform Repo Card" />
-  </a>
-
-  <a href="https://github.com/AliMedina18/ruleta-app">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=AliMedina18&repo=ruleta-app&theme=default&locale=es" alt="Ruleta App Repo Card" />
-  </a>
 </p>
 
 
