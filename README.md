@@ -39,7 +39,6 @@ Cuento con experiencia en el desarrollo Fullstack, abarcando tanto Frontend como
   Contribuciones constantes en proyectos además de enfoques en código limpio y buenas prácticas incluyendo crecimiento sostenido en repositorios abiertos.  
 </p>
 
-
   <br>
   <br>
   <br>
@@ -62,16 +61,26 @@ Constancia diaria en el desarrollo de proyectos además en mantener hábitos de 
 <br>
 <br>
 
-<h2>✨ Mis proyectos relevantes✨</h2>
+<h2>✨ Mis proyectos relevantes ✨</h2>
 
 <p align="center">
   <a href="https://github.com/AliMedina18/VANESSA">
     <img src="https://github-readme-stats.vercel.app/api/pin/?username=AliMedina18&repo=VANESSA&theme=default&locale=es" alt="VANESSA Repo Card" />
   </a>
-   <a href="https://github.com/AliMedina18/FLUVIUS">
+  
+  <a href="https://github.com/AliMedina18/FLUVIUS">
     <img src="https://github-readme-stats.vercel.app/api/pin/?username=AliMedina18&repo=FLUVIUS&theme=default&locale=es" alt="FLUVIUS Repo Card" />
   </a>
+
+  <a href="https://github.com/Kel411/IDPCPlatform">
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=Kel411&repo=IDPCPlatform&theme=default&locale=es" alt="IDPCPlatform Repo Card" />
+  </a>
+
+  <a href="https://github.com/AliMedina18/ruleta-app">
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=AliMedina18&repo=ruleta-app&theme=default&locale=es" alt="Ruleta App Repo Card" />
+  </a>
 </p>
+
 
 <h2>✨ Experiencia Profesional✨</h2>
 
