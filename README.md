@@ -16,7 +16,9 @@
 
 <h2>✨ Un poco sobre mí ✨</h2>
 <p>
-Desarrolladora de software con experiencia en el diseño de interfaces atractivas (Front-End), el desarrollo de soluciones escalables (Back-End) y la aplicación de Machine Learning para crear productos inteligentes. Soy una profesional apasionada y comprometida, con una sólida formación en programación y tecnologías modernas.
+Desarrolladora de software que convierte la lógica en experiencias digitales inteligentes. Con experiencia en
+desarrollo web e innovación tecnológica, disfruto transformar desafíos técnicos en soluciones que conectan con las
+personas.
 </p>
 
 <p align="center">
