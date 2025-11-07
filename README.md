@@ -81,14 +81,25 @@ Constancia diaria en el desarrollo de proyectos además en mantener hábitos de 
 <p align="left">
 <img align="right" src="https://media.giphy.com/media/qgQUggAC3Pfv687qPC/giphy.gif" width="220px" />
 
-<b>Microsoft / Fundación NANA</b> – Bogotá, D.C. | Marzo – Septiembre 2025  
-<b>Cargo:</b> Desarrolladora Frontend & IA  
+<b>Microsoft / Fundación NANA</b> – Bogotá, D.C. | Marzo 2025 – Septiembre 2025  
+<b>Cargo:</b> AI Developer
 </p>
-
-✔️ Desarrollé la interfaz grafica de la app **JUNA**, usada para la identificación de violencia
 ✔️ Diseñé y entrené el modelo **BERTin** con PyTorch, Hugging Face y Scikit-learn.  
 ✔️ Desplegué una API con **FastAPI + Docker**, optimizando costos en **Azure**.  
 ✔️ Creé dashboards interactivos con **Streamlit y Plotly** para visualizar métricas.  
+
+<p align="left">
+<img align="right" src="https://media.giphy.com/media/qgQUggAC3Pfv687qPC/giphy.gif" width="220px" />
+
+<b>K11 Technologies</b> – Bogotá, D.C. | Septiembre 2025 – Actualidad
+<b>Cargo:</b> AI Developer
+</p>
+✔️ Lidero la migración de una aplicación móvil de Java a Kotlin Multiplatform (KMM), 
+   definiendo la arquitectura y separando los módulos compartidos para Android e iOS.
+✔️ Integro Xcode para simulaciòn en iOS, unificando la base de código para reducir 
+    el mantenimiento y habilitar despliegue multiplataforma.
+✔️ Implemento buenas prácticas de arquitectura, rendimiento y compatibilidad en entornos 
+    móviles, optimizando la escalabilidad y la experiencia de desarrollo. 
 
 <h2>✨ Certificaciones✨</h2>
 
