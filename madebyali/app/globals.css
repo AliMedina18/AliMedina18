@@ -1,0 +1,18 @@
+/* ============================================================
+   GLOBALS — punto de entrada de estilos
+   Importa los módulos de la carpeta /styles en orden correcto
+   ============================================================ */
+
+/* 1. Design tokens (variables CSS) */
+@import '../styles/variables.css';
+
+/* 2. Tipografía y fuentes */
+@import '../styles/typography.css';
+
+/* 3. Reset y estilos base del documento */
+@import '../styles/base.css';
+
+/* 4. Tailwind CSS */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;

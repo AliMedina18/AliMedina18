@@ -1,0 +1,218 @@
+/* Testimonials — Proyectos */
+.section {
+  padding: 4rem 0;
+  background-color: rgb(250 250 250 / 0.7);
+}
+@media (min-width: 640px)  { .section { padding: 5rem 0; } }
+@media (min-width: 1024px) { .section { padding: 7rem 0; } }
+
+.container {
+  max-width: 80rem;
+  margin: 0 auto;
+  padding: 0 1rem;
+}
+@media (min-width: 640px)  { .container { padding: 0 1.5rem; } }
+@media (min-width: 1024px) { .container { padding: 0 2rem; } }
+
+.header {
+  text-align: center;
+  margin-bottom: 3rem;
+}
+@media (min-width: 640px)  { .header { margin-bottom: 4rem; } }
+@media (min-width: 1024px) { .header { margin-bottom: 5rem; } }
+
+.pill {
+  display: inline-block;
+  padding: 0.5rem 1rem;
+  background-color: #fff;
+  border: 2px solid #e4e4e7;
+  border-radius: 9999px;
+  margin-bottom: 1rem;
+}
+.pillText {
+  font-size: 0.875rem;
+  color: #7c3aed;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+.heading {
+  font-size: 1.5rem;
+  font-weight: 300;
+  color: #18181b;
+  margin-bottom: 0.75rem;
+}
+@media (min-width: 640px)  { .heading { font-size: 1.875rem; } }
+@media (min-width: 1024px) { .heading { font-size: 2.25rem; } }
+
+.headingAccent { color: #7c3aed; }
+
+.lead {
+  font-size: 1rem;
+  color: #71717a;
+  max-width: 42rem;
+  margin: 0 auto;
+}
+@media (min-width: 640px) { .lead { font-size: 1.125rem; } }
+
+.list {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+/* Project card */
+.card {
+  padding: 1.75rem;
+  background-color: #fff;
+  border: 2px solid #e4e4e7;
+  border-radius: 0.75rem;
+  transition: border-color 0.2s, box-shadow 0.2s;
+}
+@media (min-width: 1024px) { .card { padding: 2rem; } }
+.card:hover {
+  border-color: rgb(124 58 237 / 0.3);
+  box-shadow: 0 20px 25px -5px rgb(0 0 0 / 0.08), 0 8px 10px -6px rgb(0 0 0 / 0.05);
+}
+
+.cardHeader {
+  display: flex;
+  align-items: flex-start;
+  gap: 1rem;
+  margin-bottom: 1.5rem;
+  padding-bottom: 1.5rem;
+  border-bottom: 2px solid #f4f4f5;
+}
+.iconBox {
+  width: 3rem; height: 3rem;
+  background-color: #18181b;
+  border-radius: 0.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+}
+.cardInfo {
+  flex: 1;
+  min-width: 0;
+}
+.cardTitle {
+  font-size: 1.25rem;
+  font-weight: 600;
+  color: #18181b;
+  line-height: 1.3;
+}
+.cardContext {
+  font-size: 0.875rem;
+  color: #7c3aed;
+  font-weight: 500;
+  margin-top: 0.125rem;
+}
+.cardMeta {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  column-gap: 0.5rem;
+  margin-top: 0.25rem;
+}
+.cardMetaText {
+  font-size: 0.75rem;
+  color: #a1a1aa;
+}
+.cardMetaDot {
+  color: #d4d4d8;
+  font-size: 0.75rem;
+}
+.cardRole {
+  flex-shrink: 0;
+  text-align: right;
+  display: none;
+}
+@media (min-width: 640px) { .cardRole { display: block; } }
+
+.cardRoleText {
+  font-size: 0.75rem;
+  font-weight: 600;
+  color: #71717a;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+/* Card body — 1 col → 3 cols on md */
+.cardBody {
+  display: grid;
+  gap: 1.5rem;
+}
+@media (min-width: 768px) {
+  .cardBody { grid-template-columns: repeat(3, minmax(0, 1fr)); }
+}
+
+.colLabel {
+  font-size: 0.75rem;
+  color: #a1a1aa;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  margin-bottom: 0.5rem;
+  font-weight: 500;
+}
+.colText {
+  font-size: 0.875rem;
+  color: #3f3f46;
+  line-height: 1.65;
+}
+.githubLink {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.25rem;
+  font-size: 0.75rem;
+  color: #7c3aed;
+  font-weight: 500;
+  margin-top: 0.75rem;
+}
+.githubLink:hover { text-decoration: underline; }
+
+.resultsList {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+}
+.resultItem {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  background: linear-gradient(to right, #fafafa, rgb(237 233 254 / 0.4));
+  padding: 1rem;
+  border-radius: 0.5rem;
+  border: 2px solid #e4e4e7;
+}
+.resultMetric {
+  font-size: 1.125rem;
+  font-weight: 700;
+  color: #7c3aed;
+  line-height: 1.2;
+  white-space: nowrap;
+}
+.resultLabel {
+  font-size: 0.75rem;
+  color: #52525b;
+  line-height: 1.3;
+}
+
+/* Toggle */
+.toggleWrap {
+  margin-top: 2.5rem;
+  text-align: center;
+}
+.toggleBtn {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.75rem 1.5rem;
+  border: 2px solid #e4e4e7;
+  color: #3f3f46;
+  border-radius: 0.5rem;
+  font-weight: 500;
+  font-size: 0.875rem;
+  cursor: pointer;
+  transition: border-color 0.2s, color 0.2s;
+}
+.toggleBtn:hover { border-color: #7c3aed; color: #7c3aed; }

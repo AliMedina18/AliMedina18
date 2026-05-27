@@ -1,0 +1,174 @@
+/* Footer */
+.footer {
+  background-color: #09090b;
+  color: #fff;
+}
+.main {
+  max-width: 80rem;
+  margin: 0 auto;
+  padding: 3.5rem 1rem;
+}
+@media (min-width: 640px)  { .main { padding-left: 1.5rem; padding-right: 1.5rem; } }
+@media (min-width: 1024px) { .main { padding-left: 2rem;   padding-right: 2rem; } }
+
+/* Grid: 1 col → 2 cols on sm → 4 cols on lg */
+.cols {
+  display: grid;
+  gap: 2.5rem;
+}
+@media (min-width: 640px)  { .cols { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 2rem; } }
+@media (min-width: 1024px) { .cols { grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 2rem; } }
+
+/* Brand */
+.brandCol {}
+@media (min-width: 640px)  { .brandCol { grid-column: span 2; } }
+@media (min-width: 1024px) { .brandCol { grid-column: span 1; } }
+
+.logo {
+  font-size: 1.25rem;
+  font-weight: 300;
+  color: #7c3aed;
+  margin-bottom: 0.25rem;
+  display: block;
+}
+.name {
+  color: #d4d4d8;
+  font-size: 0.875rem;
+  font-weight: 500;
+  margin-bottom: 0.25rem;
+}
+.role {
+  color: #71717a;
+  font-size: 0.75rem;
+  margin-bottom: 1.25rem;
+}
+.availBadge {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.375rem 0.75rem;
+  background-color: rgb(255 255 255 / 0.05);
+  border: 1px solid rgb(255 255 255 / 0.1);
+  border-radius: 9999px;
+  margin-bottom: 1.25rem;
+}
+.availText {
+  font-size: 0.75rem;
+  color: #d4d4d8;
+}
+.socials {
+  display: flex;
+  gap: 0.5rem;
+}
+.socialBtn {
+  width: 2.25rem; height: 2.25rem;
+  background-color: rgb(255 255 255 / 0.1);
+  border-radius: 0.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+.socialBtn:hover { background-color: #7c3aed; }
+
+/* Nav */
+.colHeading {
+  margin-bottom: 1rem;
+  font-weight: 500;
+  font-size: 0.75rem;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  color: #71717a;
+}
+.navList {
+  display: flex;
+  flex-direction: column;
+  gap: 0.625rem;
+}
+.navLink {
+  color: #a1a1aa;
+  font-size: 0.875rem;
+  transition: color 0.2s;
+  cursor: pointer;
+}
+.navLink:hover { color: #7c3aed; }
+
+/* Contact */
+.contactList {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+}
+.contactItem {
+  display: flex;
+  align-items: flex-start;
+  gap: 0.625rem;
+}
+.contactIcon {
+  width: 1rem; height: 1rem;
+  color: #7c3aed;
+  flex-shrink: 0;
+  margin-top: 0.125rem;
+}
+.contactText {
+  color: #a1a1aa;
+  font-size: 0.875rem;
+  line-height: 1.4;
+}
+.contactSub {
+  color: #71717a;
+  font-size: 0.75rem;
+}
+.contactLink {
+  color: #a1a1aa;
+  font-size: 0.875rem;
+  transition: color 0.2s;
+  word-break: break-all;
+}
+.contactLink:hover { color: #7c3aed; }
+
+/* Stack */
+.stackGrid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.375rem;
+}
+.stackChip {
+  padding: 0.25rem 0.625rem;
+  font-size: 0.75rem;
+  background-color: rgb(255 255 255 / 0.05);
+  border: 1px solid rgb(255 255 255 / 0.1);
+  color: #a1a1aa;
+  border-radius: 0.375rem;
+}
+
+/* Bottom */
+.bottom {
+  border-top: 1px solid rgb(255 255 255 / 0.05);
+}
+.bottomInner {
+  max-width: 80rem;
+  margin: 0 auto;
+  padding: 1.25rem 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.5rem;
+}
+@media (min-width: 640px) {
+  .bottomInner {
+    flex-direction: row;
+    justify-content: space-between;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+  }
+}
+.copyright {
+  color: #52525b;
+  font-size: 0.75rem;
+}
+.builtWith {
+  color: #3f3f46;
+  font-size: 0.75rem;
+}

@@ -1,0 +1,93 @@
+/* Stats */
+.section {
+  padding: 3rem 0;
+  background-color: #18181b;
+  color: #fff;
+  position: relative;
+  overflow: hidden;
+}
+.section::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background-image: linear-gradient(to right, rgb(255 255 255 / 0.04) 1px, transparent 1px),
+                    linear-gradient(to bottom, rgb(255 255 255 / 0.04) 1px, transparent 1px);
+  background-size: 24px 24px;
+  pointer-events: none;
+}
+@media (min-width: 640px)  { .section { padding: 4rem 0; } }
+@media (min-width: 1024px) { .section { padding: 5rem 0; } }
+
+.container {
+  position: relative;
+  z-index: 1;
+  max-width: 80rem;
+  margin: 0 auto;
+  padding: 0 1rem;
+}
+@media (min-width: 640px)  { .container { padding: 0 1.5rem; } }
+@media (min-width: 1024px) { .container { padding: 0 2rem; } }
+
+.header {
+  text-align: center;
+  margin-bottom: 2.5rem;
+}
+@media (min-width: 640px) { .header { margin-bottom: 3rem; } }
+
+.heading {
+  font-size: 1.5rem;
+  font-weight: 300;
+  margin-bottom: 0.75rem;
+}
+@media (min-width: 640px) { .heading { font-size: 1.875rem; } }
+
+.lead {
+  font-size: 0.875rem;
+  color: #d4d4d8;
+  max-width: 36rem;
+  margin: 0 auto;
+}
+@media (min-width: 640px) { .lead { font-size: 1rem; } }
+
+/* Grid: 2 cols base → 4 cols on lg */
+.cols {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 1rem;
+}
+@media (min-width: 640px)  { .cols { gap: 1.5rem; } }
+@media (min-width: 1024px) { .cols { grid-template-columns: repeat(4, minmax(0, 1fr)); } }
+
+.card {
+  text-align: center;
+  border: 2px solid rgb(255 255 255 / 0.1);
+  padding: 1.25rem;
+  border-radius: 0.5rem;
+  background-color: rgb(255 255 255 / 0.05);
+  transition: background-color 0.2s, border-color 0.2s;
+}
+@media (min-width: 640px) { .card { padding: 1.5rem; } }
+.card:hover {
+  background-color: rgb(255 255 255 / 0.1);
+  border-color: rgb(124 58 237 / 0.3);
+}
+.value {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: #7c3aed;
+  margin-bottom: 0.5rem;
+}
+@media (min-width: 640px)  { .value { font-size: 1.875rem; } }
+@media (min-width: 1024px) { .value { font-size: 2.25rem; } }
+
+.label {
+  font-size: 0.875rem;
+  font-weight: 600;
+  margin-bottom: 0.25rem;
+}
+@media (min-width: 640px) { .label { font-size: 1rem; } }
+
+.sublabel {
+  font-size: 0.75rem;
+  color: #a1a1aa;
+}

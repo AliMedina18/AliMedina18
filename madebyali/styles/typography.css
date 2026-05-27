@@ -1,0 +1,46 @@
+/* ============================================================
+   TYPOGRAPHY — fuentes, escala tipográfica y jerarquía
+   ============================================================ */
+
+/* --- Google Fonts --- */
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+/* --- Escala tipográfica del proyecto ---
+   xs:   12px — etiquetas, metadata, tags
+   sm:   14px — texto secundario, descripciones de tarjeta
+   base: 16px — cuerpo principal (mínimo accesible)
+   lg:   18px — texto lead / intro
+   xl:   20px — títulos de tarjeta (h4)
+   2xl:  24px — subtítulos de sección (h3)
+   3xl:  30px — encabezados medianos (h2 mobile)
+   4xl:  36px — encabezados de sección (h2 desktop)
+   5xl:  48px — encabezado principal Hero (h1 desktop)
+   ============================================================ */
+
+/* --- Headings --- */
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Inter', system-ui, sans-serif;
+  line-height: 1.2;
+  letter-spacing: -0.015em;
+  font-feature-settings: 'kern' 1, 'ss01' 1;
+}
+
+/* --- Body text --- */
+p {
+  line-height: 1.65;
+  font-feature-settings: 'kern' 1, 'liga' 1, 'calt' 1;
+}
+
+/* --- Labels y metadata --- */
+.label {
+  font-size: 0.75rem;   /* 12px */
+  font-weight: 500;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  line-height: 1.4;
+}
+
+/* --- Accesibilidad: tamaño mínimo de texto --- */
+small {
+  font-size: 0.75rem; /* nunca menos de 12px */
+}
