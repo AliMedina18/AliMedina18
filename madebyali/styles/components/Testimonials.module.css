@@ -1,7 +1,18 @@
 /* Testimonials — Proyectos */
 .section {
   padding: 4rem 0;
-  background-color: rgb(250 250 250 / 0.7);
+  background-color: #fff;
+  position: relative;
+  overflow: hidden;
+}
+.section::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background-image: linear-gradient(to right, #8080800a 1px, transparent 1px),
+                    linear-gradient(to bottom, #8080800a 1px, transparent 1px);
+  background-size: 24px 24px;
+  pointer-events: none;
 }
 @media (min-width: 640px)  { .section { padding: 5rem 0; } }
 @media (min-width: 1024px) { .section { padding: 7rem 0; } }
@@ -11,8 +22,11 @@
   margin: 0 auto;
   padding: 0 1rem;
 }
+@media (max-width: 374px)  { .container { padding: 0 0.75rem; } }
 @media (min-width: 640px)  { .container { padding: 0 1.5rem; } }
 @media (min-width: 1024px) { .container { padding: 0 2rem; } }
+@media (min-width: 1280px) { .container { max-width: 90rem; padding: 0 2.5rem; } }
+@media (min-width: 1536px) { .container { max-width: 100rem; padding: 0 3rem; } }
 
 .header {
   text-align: center;
@@ -22,37 +36,65 @@
 @media (min-width: 1024px) { .header { margin-bottom: 5rem; } }
 
 .pill {
-  display: inline-block;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.375rem;
   padding: 0.5rem 1rem;
   background-color: #fff;
   border: 2px solid #e4e4e7;
   border-radius: 9999px;
   margin-bottom: 1rem;
 }
+.pillIcon {
+  flex-shrink: 0;
+  color: #ff5ccf;
+  animation: spinScale 3s ease-in-out infinite;
+}
+@media (max-width: 640px) {
+  .pillIcon { animation: spinScale-mobile 3s ease-in-out infinite; }
+}
+@keyframes spinScale {
+  0%   { transform: rotate(0deg)   scale(1); }
+  25%  { transform: rotate(90deg)  scale(1.25); }
+  50%  { transform: rotate(180deg) scale(1); }
+  75%  { transform: rotate(270deg) scale(0.8); }
+  100% { transform: rotate(360deg) scale(1); }
+}
+@keyframes spinScale-mobile {
+  0%   { transform: rotate(0deg)   scale(1); }
+  25%  { transform: rotate(90deg)  scale(1.1); }
+  50%  { transform: rotate(180deg) scale(1); }
+  75%  { transform: rotate(270deg) scale(0.95); }
+  100% { transform: rotate(360deg) scale(1); }
+}
 .pillText {
   font-size: 0.875rem;
-  color: #7c3aed;
+  color: #ff5ccf;
   text-transform: uppercase;
   letter-spacing: 0.05em;
 }
 .heading {
-  font-size: 1.5rem;
-  font-weight: 300;
+  font-size: 1.25rem;
+  font-weight: 450;
   color: #18181b;
   margin-bottom: 0.75rem;
 }
+@media (max-width: 374px)  { .heading { font-size: 1.125rem; } }
 @media (min-width: 640px)  { .heading { font-size: 1.875rem; } }
 @media (min-width: 1024px) { .heading { font-size: 2.25rem; } }
+@media (min-width: 1536px) { .heading { font-size: 2.75rem; margin-bottom: 1rem; } }
 
-.headingAccent { color: #7c3aed; }
+.headingAccent { color: #ff5ccf; }
 
 .lead {
-  font-size: 1rem;
+  font-size: 0.9rem;
   color: #71717a;
   max-width: 42rem;
   margin: 0 auto;
 }
+@media (max-width: 374px)  { .lead { font-size: 0.8rem; } }
 @media (min-width: 640px) { .lead { font-size: 1.125rem; } }
+@media (min-width: 1536px) { .lead { font-size: 1.25rem; } }
 
 .list {
   display: flex;
@@ -62,15 +104,17 @@
 
 /* Project card */
 .card {
-  padding: 1.75rem;
+  padding: 1.25rem;
   background-color: #fff;
   border: 2px solid #e4e4e7;
   border-radius: 0.75rem;
   transition: border-color 0.2s, box-shadow 0.2s;
 }
+@media (min-width: 640px)  { .card { padding: 1.75rem; } }
 @media (min-width: 1024px) { .card { padding: 2rem; } }
+@media (min-width: 1536px) { .card { padding: 2.5rem; } }
 .card:hover {
-  border-color: rgb(124 58 237 / 0.3);
+  border-color: rgb(255 92 207 / 0.3);
   box-shadow: 0 20px 25px -5px rgb(0 0 0 / 0.08), 0 8px 10px -6px rgb(0 0 0 / 0.05);
 }
 
@@ -83,27 +127,32 @@
   border-bottom: 2px solid #f4f4f5;
 }
 .iconBox {
-  width: 3rem; height: 3rem;
-  background-color: #18181b;
+  width: 2.5rem; height: 2.5rem;
+  background-color: #070c32;
   border-radius: 0.5rem;
   display: flex;
   align-items: center;
   justify-content: center;
   flex-shrink: 0;
 }
+@media (min-width: 640px)  { .iconBox { width: 3rem; height: 3rem; } }
+@media (min-width: 1536px) { .iconBox { width: 3.5rem; height: 3.5rem; } }
 .cardInfo {
   flex: 1;
   min-width: 0;
 }
 .cardTitle {
-  font-size: 1.25rem;
+  font-size: 1.125rem;
   font-weight: 600;
   color: #18181b;
   line-height: 1.3;
 }
+@media (max-width: 374px)  { .cardTitle { font-size: 1rem; } }
+@media (min-width: 640px)  { .cardTitle { font-size: 1.25rem; } }
+@media (min-width: 1536px) { .cardTitle { font-size: 1.5rem; } }
 .cardContext {
   font-size: 0.875rem;
-  color: #7c3aed;
+  color: #ff5ccf;
   font-weight: 500;
   margin-top: 0.125rem;
 }
@@ -164,7 +213,7 @@
   align-items: center;
   gap: 0.25rem;
   font-size: 0.75rem;
-  color: #7c3aed;
+  color: #ff5ccf;
   font-weight: 500;
   margin-top: 0.75rem;
 }
@@ -179,40 +228,50 @@
   display: flex;
   align-items: center;
   gap: 0.75rem;
-  background: linear-gradient(to right, #fafafa, rgb(237 233 254 / 0.4));
+  background: linear-gradient(to right, #fafafa, rgb(253 232 248 / 0.4));
   padding: 1rem;
   border-radius: 0.5rem;
   border: 2px solid #e4e4e7;
 }
 .resultMetric {
-  font-size: 1.125rem;
+  font-size: 1rem;
   font-weight: 700;
-  color: #7c3aed;
+  color: #ff5ccf;
   line-height: 1.2;
   white-space: nowrap;
 }
+@media (max-width: 374px)  { .resultMetric { font-size: 0.9rem; } }
+@media (min-width: 1536px) { .resultMetric { font-size: 1.25rem; } }
 .resultLabel {
-  font-size: 0.75rem;
+  font-size: 0.7rem;
   color: #52525b;
   line-height: 1.3;
 }
+@media (max-width: 374px)  { .resultLabel { font-size: 0.65rem; } }
+@media (min-width: 1536px) { .resultLabel { font-size: 0.8rem; } }
 
 /* Toggle */
 .toggleWrap {
   margin-top: 2.5rem;
-  text-align: center;
+  display: flex;
+  justify-content: center;
 }
 .toggleBtn {
   display: inline-flex;
   align-items: center;
   gap: 0.5rem;
-  padding: 0.75rem 1.5rem;
-  border: 2px solid #e4e4e7;
-  color: #3f3f46;
-  border-radius: 0.5rem;
-  font-weight: 500;
+  padding: 0.75rem 1.75rem;
   font-size: 0.875rem;
+  font-weight: 500;
+  color: #3f3f46;
+  background-color: #fff;
+  border: 2px solid #e4e4e7;
+  border-radius: 0.5rem;
   cursor: pointer;
-  transition: border-color 0.2s, color 0.2s;
+  transition: color 0.2s, border-color 0.2s, background-color 0.2s;
 }
-.toggleBtn:hover { border-color: #7c3aed; color: #7c3aed; }
+.toggleBtn:hover {
+  color: #ff5ccf;
+  border-color: rgb(255 92 207 / 0.4);
+  background-color: rgb(255 92 207 / 0.04);
+}

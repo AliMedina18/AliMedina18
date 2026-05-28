@@ -1,13 +1,45 @@
 /* Navbar */
+
+/* ── Entrada desde arriba — puro CSS, sin estado JS ── */
+@keyframes navSlideDown {
+  from { opacity: 0; transform: translateY(-100%); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+
+/* ── Mobile menu slide + fade ── */
+@keyframes menuSlideDown {
+  from { opacity: 0; transform: translateY(-10px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+
+/* ── Base ──
+   animation-delay: 4.2s → aparece después de que termina el hero
+   animation-fill-mode: both → el keyframe "from" se aplica desde el inicio
+   Esto mantiene la navbar invisible sin ningún estado de React         */
 .header {
   position: fixed;
   top: 0; left: 0; right: 0;
   z-index: 50;
-  background-color: rgb(255 255 255 / 0.8);
+  background-color: rgb(255 255 255 / 0.85);
   backdrop-filter: blur(16px);
   -webkit-backdrop-filter: blur(16px);
   border-bottom: 1px solid #e4e4e7;
+  transition: box-shadow 0.3s ease, background-color 0.3s ease, border-color 0.3s ease;
+  animation: navSlideDown 0.55s cubic-bezier(0.22, 1, 0.36, 1) 4.2s both;
 }
+
+/* Respeta prefers-reduced-motion: muestra la navbar de inmediato */
+@media (prefers-reduced-motion: reduce) {
+  .header { animation: none; }
+}
+
+/* ── Estado: scrolled — más compacta y con sombra ── */
+.headerScrolled {
+  background-color: rgb(255 255 255 / 0.95);
+  border-color: transparent;
+  box-shadow: 0 4px 20px rgb(0 0 0 / 0.08), 0 1px 4px rgb(0 0 0 / 0.04);
+}
+
 .inner {
   max-width: 80rem;
   margin: 0 auto;
@@ -20,38 +52,63 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  height: 5rem;
+  height: 4.5rem;
+  transition: height 0.3s ease;
 }
+.headerScrolled .bar {
+  height: 3.75rem;
+}
+
 .logo {
   font-size: 1.5rem;
   letter-spacing: -0.025em;
-  color: #7c3aed;
+  color: #ff5ccf;
   cursor: pointer;
+  transition: font-size 0.3s ease, opacity 0.2s;
+}
+.logo:hover { opacity: 0.8; }
+.headerScrolled .logo {
+  font-size: 1.375rem;
 }
 
-/* Desktop nav — hidden on mobile, flex on md+ */
+/* ── Desktop nav ── */
 .desktopNav {
-  display: none;
+  display: none !important;
   align-items: center;
   gap: 2rem;
 }
-@media (min-width: 768px) { .desktopNav { display: flex; } }
+@media (min-width: 768px) { .desktopNav { display: flex !important; } }
 
+/* ── Nav link con subrayado deslizante ── */
 .navLink {
+  position: relative;
   font-size: 0.875rem;
   font-weight: 500;
   color: #3f3f46;
   transition: color 0.2s;
+  padding-bottom: 2px;
 }
-.navLink:hover { color: #7c3aed; }
+.navLink::after {
+  content: '';
+  position: absolute;
+  bottom: -2px;
+  left: 0;
+  width: 0;
+  height: 2px;
+  background-color: #ff5ccf;
+  border-radius: 9999px;
+  transition: width 0.3s cubic-bezier(0.22, 1, 0.36, 1);
+}
+.navLink:hover { color: #ff5ccf; }
+.navLink:hover::after { width: 100%; }
 
-/* Desktop CTAs — hidden on mobile */
+/* ── Desktop CTAs ── */
 .desktopCtas {
-  display: none;
+  display: none !important;
   align-items: center;
   gap: 0.75rem;
 }
-@media (min-width: 768px) { .desktopCtas { display: flex; } }
+@media (min-width: 768px) { .desktopCtas { display: flex !important; } }
 
 .btnOutline {
   font-size: 0.875rem;
@@ -61,42 +118,49 @@
   border-radius: 0.5rem;
   color: #3f3f46;
   cursor: pointer;
-  transition: color 0.2s, border-color 0.2s;
+  transition: color 0.2s, border-color 0.2s, background-color 0.2s;
 }
-.btnOutline:hover { color: #7c3aed; border-color: #7c3aed; }
+.btnOutline:hover {
+  color: #ff5ccf;
+  border-color: #ff5ccf;
+  background-color: rgb(255 92 207 / 0.04);
+}
 
 .btnPrimary {
   font-size: 0.875rem;
   font-weight: 500;
   padding: 0.625rem 1.25rem;
-  background-color: #7c3aed;
+  background-color: #ff5ccf;
   color: #fff;
   border-radius: 0.5rem;
   cursor: pointer;
-  transition: background-color 0.2s;
+  transition: background-color 0.2s, transform 0.15s;
 }
-.btnPrimary:hover { background-color: #6d28d9; }
+.btnPrimary:hover { background-color: #e040b8; transform: translateY(-1px); }
+.btnPrimary:active { transform: translateY(0); }
 
-/* Mobile toggle — visible on mobile, hidden on md+ */
+/* ── Mobile toggle ── */
 .mobileToggle {
-  display: flex;
+  display: flex !important;
   align-items: center;
   justify-content: center;
   padding: 0.5rem;
   border-radius: 0.5rem;
   cursor: pointer;
   transition: background-color 0.2s;
+  color: #3f3f46;
 }
-@media (min-width: 768px) { .mobileToggle { display: none; } }
+@media (min-width: 768px) { .mobileToggle { display: none !important; } }
 .mobileToggle:hover { background-color: #f4f4f5; }
 
-/* Mobile menu */
+/* ── Mobile menu ── */
 .mobileMenu {
   border-top: 1px solid #e4e4e7;
   padding: 1rem 0;
   display: flex;
   flex-direction: column;
   gap: 0.25rem;
+  animation: menuSlideDown 0.28s cubic-bezier(0.22, 1, 0.36, 1) both;
 }
 .mobileLink {
   display: block;
@@ -105,9 +169,13 @@
   font-weight: 500;
   color: #3f3f46;
   border-radius: 0.5rem;
-  transition: color 0.2s, background-color 0.2s;
+  transition: color 0.2s, background-color 0.2s, padding-left 0.2s;
 }
-.mobileLink:hover { color: #7c3aed; background-color: #fafafa; }
+.mobileLink:hover {
+  color: #ff5ccf;
+  background-color: rgb(255 92 207 / 0.05);
+  padding-left: 1rem;
+}
 
 .mobileCtas {
   display: flex;
@@ -128,16 +196,21 @@
   font-weight: 500;
   color: #3f3f46;
   cursor: pointer;
+  transition: border-color 0.2s, color 0.2s;
 }
+.mobileBtnOutline:hover { border-color: #ff5ccf; color: #ff5ccf; }
+
 .mobileBtnPrimary {
   display: block;
   width: 100%;
   text-align: center;
   padding: 0.625rem;
-  background-color: #7c3aed;
+  background-color: #ff5ccf;
   border-radius: 0.5rem;
   font-size: 0.875rem;
   font-weight: 500;
   color: #fff;
   cursor: pointer;
+  transition: background-color 0.2s;
 }
+.mobileBtnPrimary:hover { background-color: #e040b8; }

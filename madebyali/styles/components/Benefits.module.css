@@ -22,8 +22,11 @@
   margin: 0 auto;
   padding: 0 1rem;
 }
+@media (max-width: 374px)  { .container { padding: 0 0.75rem; } }
 @media (min-width: 640px)  { .container { padding: 0 1.5rem; } }
 @media (min-width: 1024px) { .container { padding: 0 2rem; } }
+@media (min-width: 1280px) { .container { max-width: 90rem; padding: 0 2.5rem; } }
+@media (min-width: 1536px) { .container { max-width: 100rem; padding: 0 3rem; } }
 
 .header {
   text-align: center;
@@ -33,35 +36,51 @@
 @media (min-width: 1024px) { .header { margin-bottom: 5rem; } }
 
 .pill {
-  display: inline-block;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.375rem;
   padding: 0.5rem 1rem;
-  background-color: #ede9fe;
+  background-color: #fde8f8;
   border-radius: 9999px;
   margin-bottom: 1rem;
 }
+.pillIcon {
+  flex-shrink: 0;
+  color: #ff5ccf;
+  animation: pillPulse 1.4s ease-in-out infinite;
+}
+@keyframes pillPulse {
+  0%, 100% { transform: scale(1); }
+  50%       { transform: scale(1.35); }
+}
 .pillText {
   font-size: 0.875rem;
-  color: #7c3aed;
+  color: #ff5ccf;
   text-transform: uppercase;
   letter-spacing: 0.05em;
 }
 .heading {
-  font-size: 1.5rem;
-  font-weight: 300;
+  font-size: 1.25rem;
+  font-weight: 450;
   color: #18181b;
-  margin-bottom: 0.75rem;
+  margin-bottom: 1rem;
 }
+@media (max-width: 374px)  { .heading { font-size: 1.125rem; } }
 @media (min-width: 640px)  { .heading { font-size: 1.875rem; } }
 @media (min-width: 1024px) { .heading { font-size: 2.25rem; } }
+@media (min-width: 1536px) { .heading { font-size: 2.75rem; margin-bottom: 1.25rem; } }
 
-.headingAccent { color: #7c3aed; }
+.headingAccent { color: #ff5ccf; }
 
 .lead {
-  font-size: 1rem;
+  font-size: 0.9rem;
   color: #71717a;
   max-width: 42rem;
   margin: 0 auto;
 }
+@media (max-width: 374px)  { .lead { font-size: 0.8rem; } }
+@media (min-width: 640px) { .lead { font-size: 1.125rem; } }
+@media (min-width: 1536px) { .lead { font-size: 1.25rem; } }
 
 /* Layout: 1 col → 3 cols on lg */
 .layout {
@@ -76,45 +95,53 @@
 /* Profile card */
 .profileCol {}
 .profileCard {
-  background: linear-gradient(to bottom, #fafafa, rgb(237 233 254 / 0.3));
+  background: linear-gradient(to bottom, #fafafa, rgb(253 232 248 / 0.3));
   border: 2px solid #e4e4e7;
   border-radius: 1rem;
-  padding: 2rem;
+  padding: 1.25rem;
 }
-@media (min-width: 1024px) { .profileCard { position: sticky; top: 6rem; } }
+@media (min-width: 640px)  { .profileCard { padding: 1.75rem; } }
+@media (min-width: 1024px) { .profileCard { padding: 2rem; position: sticky; top: 6rem; } }
 
 .avatarRow {
   display: flex;
   align-items: center;
-  gap: 1rem;
-  margin-bottom: 1.75rem;
-  padding-bottom: 1.75rem;
+  gap: 0.75rem;
+  margin-bottom: 1.25rem;
+  padding-bottom: 1.25rem;
   border-bottom: 2px solid #e4e4e7;
 }
+@media (min-width: 640px) { .avatarRow { gap: 1rem; margin-bottom: 1.75rem; padding-bottom: 1.75rem; } }
 .avatar {
-  width: 3.5rem; height: 3.5rem;
-  background-color: #18181b;
+  width: 3rem; height: 3rem;
+  background-color: #070c32;
   border-radius: 0.75rem;
   display: flex;
   align-items: center;
   justify-content: center;
   flex-shrink: 0;
 }
+@media (min-width: 640px)  { .avatar { width: 3.5rem; height: 3.5rem; } }
+@media (min-width: 1536px) { .avatar { width: 4rem; height: 4rem; } }
 .avatarInitial {
   font-size: 1.5rem;
   font-weight: 700;
   color: #fff;
 }
 .profileName {
-  font-size: 1rem;
+  font-size: 0.95rem;
   font-weight: 600;
   color: #18181b;
 }
+@media (max-width: 374px)  { .profileName { font-size: 0.875rem; } }
+@media (min-width: 1536px) { .profileName { font-size: 1.125rem; } }
 .profileRole {
-  font-size: 0.875rem;
-  color: #7c3aed;
+  font-size: 0.8rem;
+  color: #ff5ccf;
   font-weight: 500;
 }
+@media (max-width: 374px)  { .profileRole { font-size: 0.75rem; } }
+@media (min-width: 1536px) { .profileRole { font-size: 1rem; } }
 .profileLocation {
   display: flex;
   align-items: center;
@@ -162,7 +189,7 @@
 }
 .techChip {
   padding: 0.25rem 0.5rem;
-  background-color: #fff;
+  background-color: #fafafa;
   border: 1px solid #e4e4e7;
   color: #52525b;
   font-size: 0.75rem;
@@ -186,7 +213,7 @@
   align-items: center;
   gap: 0.375rem;
   padding: 0.375rem 0.75rem;
-  background-color: #fff;
+  background-color: #fafafa;
   border: 2px solid #e4e4e7;
   color: #52525b;
   font-size: 0.75rem;
@@ -194,7 +221,7 @@
   border-radius: 0.5rem;
   transition: border-color 0.2s;
 }
-.focusChip:hover { border-color: rgb(124 58 237 / 0.4); }
+.focusChip:hover { border-color: rgb(255 92 207 / 0.4); }
 
 /* Bio column */
 .bioCol {}
@@ -202,21 +229,25 @@
   display: flex;
   flex-direction: column;
   gap: 1rem;
-  font-size: 0.875rem;
+  font-size: 0.8rem;
   color: #52525b;
   line-height: 1.65;
 }
+@media (max-width: 374px)  { .bioBody { font-size: 0.75rem; } }
 @media (min-width: 640px) { .bioBody { font-size: 1rem; } }
+@media (min-width: 1536px) { .bioBody { font-size: 1.0625rem; } }
 
 .bioStrong {
   color: #27272a;
   font-weight: 500;
 }
 .bioQuote {
-  font-size: 0.875rem;
+  font-size: 0.8rem;
   color: #27272a;
   font-weight: 500;
-  border-left: 4px solid #7c3aed;
+  border-left: 4px solid #ff5ccf;
   padding: 0.25rem 0 0.25rem 1.25rem;
 }
+@media (max-width: 374px)  { .bioQuote { font-size: 0.75rem; } }
 @media (min-width: 640px) { .bioQuote { font-size: 1rem; } }
+@media (min-width: 1536px) { .bioQuote { font-size: 1.0625rem; } }

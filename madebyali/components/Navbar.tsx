@@ -1,15 +1,23 @@
 "use client";
 
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import { Menu, X } from "lucide-react";
 import { NAV_LINKS } from "@/data/navigation";
 import s from "@/styles/components/Navbar.module.css";
 
 export default function Navbar() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
+  const [scrolled,   setScrolled]   = useState(false);
+
+  // Compact mode on scroll
+  useEffect(() => {
+    const onScroll = () => setScrolled(window.scrollY > 20);
+    window.addEventListener("scroll", onScroll, { passive: true });
+    return () => window.removeEventListener("scroll", onScroll);
+  }, []);
 
   return (
-    <header className={s.header}>
+    <header className={`${s.header}${scrolled ? ` ${s.headerScrolled}` : ""}`}>
       <div className={s.inner}>
         <div className={s.bar}>
 

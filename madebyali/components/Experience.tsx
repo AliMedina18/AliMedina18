@@ -1,5 +1,7 @@
-import { Briefcase, GraduationCap } from "lucide-react";
+import { Briefcase, GraduationCap, Compass } from "lucide-react";
 import { JOBS, EDUCATION, HIGHLIGHTED_PROJECTS } from "@/data/experience";
+import ScrollRevealHeading from "@/components/ScrollRevealHeading";
+import ScrollRevealText from "@/components/ScrollRevealText";
 import s from "@/styles/components/Experience.module.css";
 
 export default function Experience() {
@@ -9,15 +11,19 @@ export default function Experience() {
 
         <div className={s.header}>
           <div className={s.pill}>
+            <Compass className={`w-3.5 h-3.5 ${s.pillIcon}`} />
             <span className={s.pillText}>Trayectoria</span>
           </div>
-          <h2 className={s.heading}>
-            Experiencia &amp; <span className={s.headingAccent}>Formación</span>
-          </h2>
-          <p className={s.lead}>
+          <ScrollRevealHeading
+            normal="Experiencia & "
+            accent="Formación"
+            className={s.heading}
+            accentClassName={s.headingAccent}
+          />
+          <ScrollRevealText className={s.lead} delay={150}>
             Proyectos reales en empresas como Microsoft, K11 Technologies
             y el sector público colombiano.
-          </p>
+          </ScrollRevealText>
         </div>
 
         <div className={s.layout}>

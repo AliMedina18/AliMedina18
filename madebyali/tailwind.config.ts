@@ -9,14 +9,22 @@ const config: Config = {
   ],
   theme: {
     extend: {
+      screens: {
+        xs: "320px",    /* Pantallas muy pequeñas */
+        sm: "640px",
+        md: "768px",
+        lg: "1024px",
+        xl: "1280px",
+        "2xl": "1536px", /* Pantallas muy grandes */
+      },
       fontFamily: {
         sans: ["Inter", "system-ui", "sans-serif"],
       },
       colors: {
-        primary: "#7c3aed",
-        "primary-hover": "#6d28d9",
-        secondary: "#ede9fe",
-        "secondary-foreground": "#5b21b6",
+        primary: "#ff5ccf",
+        "primary-hover": "#e040b8",
+        secondary: "#fde8f8",
+        "secondary-foreground": "#c026a0",
         foreground: "#09090b",
         "muted-foreground": "#71717a",
         border: "#e4e4e7",

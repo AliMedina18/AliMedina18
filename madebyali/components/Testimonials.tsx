@@ -1,8 +1,10 @@
 "use client";
 
 import { useState } from "react";
-import { ChevronDown, ChevronUp } from "lucide-react";
+import { ChevronDown, ChevronUp, Star } from "lucide-react";
 import { PROJECTS, DEFAULT_VISIBLE, type Project } from "@/data/projects";
+import ScrollRevealHeading from "@/components/ScrollRevealHeading";
+import ScrollRevealText from "@/components/ScrollRevealText";
 import s from "@/styles/components/Testimonials.module.css";
 
 function ProjectCard({ project }: { project: Project }) {
@@ -69,15 +71,19 @@ export default function Testimonials() {
 
         <div className={s.header}>
           <div className={s.pill}>
+            <Star className={`w-3.5 h-3.5 ${s.pillIcon}`} />
             <span className={s.pillText}>Proyectos destacados</span>
           </div>
-          <h2 className={s.heading}>
-            Lo que he <span className={s.headingAccent}>construido</span>
-          </h2>
-          <p className={s.lead}>
+          <ScrollRevealHeading
+            normal="Mi "
+            accent="trabajo"
+            className={s.heading}
+            accentClassName={s.headingAccent}
+          />
+          <ScrollRevealText className={s.lead} delay={150}>
             Proyectos donde apliqué tecnología real para resolver problemas reales,
             desde IA aplicada hasta plataformas de impacto social.
-          </p>
+          </ScrollRevealText>
         </div>
 
         <div className={s.list}>

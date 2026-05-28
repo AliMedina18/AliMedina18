@@ -97,3 +97,35 @@ export const HIGHLIGHTED_PROJECTS = [
   { name: "FLUVIUS",         detail: "Sistema de recursos hídricos (SENA)"                            },
   { name: "2do lugar — SENAsoft 2024", detail: "competencia nacional de tecnología"                  },
 ];
+
+export interface Certification {
+  name:         string;
+  issuer:       string;
+  issued:       string;
+  credentialId: string;
+  url:          string;
+}
+
+export const CERTIFICATIONS: Certification[] = [
+  {
+    name:         "Microsoft Certified: Azure Fundamentals",
+    issuer:       "Microsoft",
+    issued:       "sept. 2025",
+    credentialId: "FD62D89415081C2C",
+    url:          "https://learn.microsoft.com/es-mx/users/aliciamedinaoquendo-1444/credentials/fd62d89415081c2c",
+  },
+  {
+    name:         "Google AI Essentials",
+    issuer:       "Google",
+    issued:       "ago. 2025",
+    credentialId: "UDYUNTHOA0KF",
+    url:          "https://www.coursera.org/account/accomplishments/specialization/UDYUNTHOA0KF",
+  },
+  {
+    name:         "Google Prompting Essentials",
+    issuer:       "Google",
+    issued:       "ago. 2025",
+    credentialId: "4SQ7PBWT07FR",
+    url:          "https://www.coursera.org/account/accomplishments/specialization/4SQ7PBWT07FR",
+  },
+];

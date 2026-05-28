@@ -1,5 +1,7 @@
-import { MapPin } from "lucide-react";
+import { MapPin, Heart } from "lucide-react";
 import { FOCUS_AREAS, CONTACT } from "@/data/profile";
+import ScrollRevealHeading from "@/components/ScrollRevealHeading";
+import ScrollRevealText from "@/components/ScrollRevealText";
 import s from "@/styles/components/Benefits.module.css";
 
 const TECHS = ["Python", "C#", ".NET", "React", "Kotlin", "Swift", "Django", "FastAPI", "Azure", "PostgreSQL", "MongoDB", "Git"];
@@ -11,14 +13,18 @@ export default function Benefits() {
 
         <div className={s.header}>
           <div className={s.pill}>
+            <Heart className={`w-3.5 h-3.5 ${s.pillIcon}`} />
             <span className={s.pillText}>Sobre mí</span>
           </div>
-          <h2 className={s.heading}>
-            Quién soy y <span className={s.headingAccent}>cómo pienso</span>
-          </h2>
-          <p className={s.lead}>
+          <ScrollRevealHeading
+            normal="Quién soy y "
+            accent="cómo pienso"
+            className={s.heading}
+            accentClassName={s.headingAccent}
+          />
+          <ScrollRevealText className={s.lead} delay={150}>
             Desarrolladora Full Stack con enfoque en experiencias digitales que combinan tecnología, diseño e inteligencia.
-          </p>
+          </ScrollRevealText>
         </div>
 
         <div className={s.layout}>
@@ -69,7 +75,7 @@ export default function Benefits() {
               <div className={s.focusGrid}>
                 {FOCUS_AREAS.map(({ icon: Icon, label }) => (
                   <span key={label} className={s.focusChip}>
-                    <Icon className="w-3 h-3 text-[#7c3aed]" />
+                    <Icon className="w-3 h-3 text-[#ff5ccf]" />
                     {label}
                   </span>
                 ))}

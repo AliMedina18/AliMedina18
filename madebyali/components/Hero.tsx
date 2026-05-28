@@ -1,4 +1,5 @@
 import { ArrowRight, Sparkles } from "lucide-react";
+import TypewriterHeading from "@/components/TypewriterHeading";
 import s from "@/styles/components/Hero.module.css";
 
 export default function Hero() {
@@ -10,19 +11,15 @@ export default function Hero() {
         <div className={s.content}>
 
           <div className={s.badge}>
-            <Sparkles className="w-4 h-4 text-[#7c3aed]" />
+            <Sparkles className={`w-4 h-4 text-[#ff5ccf] ${s.pillIcon}`} />
             <span className={s.badgeText}>Full Stack Software Developer</span>
           </div>
 
-          <h1 className={s.heading}>
-            Construyo tecnología que{" "}
-            <span className={s.headingAccent}>se siente humana</span>
-          </h1>
+          <TypewriterHeading />
 
           <p className={s.bio}>
-            Soy Ali Medina — desarrolladora Full Stack apasionada por transformar
-            lógica en experiencias digitales que las personas puedan entender,
-            disfrutar y usar con confianza.
+            Soy Alicia Medina — Programadora que convierte la logica en
+            experiencias digitales humanas.
           </p>
 
           <div className={s.ctas}>
